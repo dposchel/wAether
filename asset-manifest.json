@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/wAether/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/wAether/static/js/main.995c68bd.chunk.js",
+    "main.js.map": "/wAether/static/js/main.995c68bd.chunk.js.map",
+    "runtime-main.js": "/wAether/static/js/runtime-main.c8900c60.js",
+    "runtime-main.js.map": "/wAether/static/js/runtime-main.c8900c60.js.map",
+    "static/js/2.ded69aaf.chunk.js": "/wAether/static/js/2.ded69aaf.chunk.js",
+    "static/js/2.ded69aaf.chunk.js.map": "/wAether/static/js/2.ded69aaf.chunk.js.map",
+    "static/js/3.2ff070d6.chunk.js": "/wAether/static/js/3.2ff070d6.chunk.js",
+    "static/js/3.2ff070d6.chunk.js.map": "/wAether/static/js/3.2ff070d6.chunk.js.map",
+    "index.html": "/wAether/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/wAether/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.ded69aaf.chunk.js.LICENSE.txt": "/wAether/static/js/2.ded69aaf.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/wAether/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8900c60.js",
+    "static/js/2.ded69aaf.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.995c68bd.chunk.js"
+  ]
+}
