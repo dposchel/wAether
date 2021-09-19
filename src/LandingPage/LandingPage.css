@@ -1,0 +1,21 @@
+.CardStack {
+  background-color: #6D6D6D;
+  padding: 10px;
+};
+
+.PlanetCard-card-content {
+  background-color: #B3B3B3;
+}
+
+.PlanetCard {
+  display: flex;
+  overflow: hidden;
+}
+
+.PlanetCard-globe {
+  background-color: brown;
+}
+
+.MuiCardContent-root {
+  background-color: #4D4D4D;
+}
