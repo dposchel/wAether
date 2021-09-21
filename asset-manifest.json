@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/wAether/static/css/main.f98a332e.chunk.css",
-    "main.js": "/wAether/static/js/main.f6d8127a.chunk.js",
-    "main.js.map": "/wAether/static/js/main.f6d8127a.chunk.js.map",
-    "runtime-main.js": "/wAether/static/js/runtime-main.5fbe9aca.js",
-    "runtime-main.js.map": "/wAether/static/js/runtime-main.5fbe9aca.js.map",
-    "static/js/2.5cec8ad8.chunk.js": "/wAether/static/js/2.5cec8ad8.chunk.js",
-    "static/js/2.5cec8ad8.chunk.js.map": "/wAether/static/js/2.5cec8ad8.chunk.js.map",
-    "static/js/3.b40a5dc9.chunk.js": "/wAether/static/js/3.b40a5dc9.chunk.js",
-    "static/js/3.b40a5dc9.chunk.js.map": "/wAether/static/js/3.b40a5dc9.chunk.js.map",
+    "main.css": "/wAether/static/css/main.6cf7b889.chunk.css",
+    "main.js": "/wAether/static/js/main.89ef80e7.chunk.js",
+    "main.js.map": "/wAether/static/js/main.89ef80e7.chunk.js.map",
+    "runtime-main.js": "/wAether/static/js/runtime-main.bcecfdab.js",
+    "runtime-main.js.map": "/wAether/static/js/runtime-main.bcecfdab.js.map",
+    "static/js/2.569e90f6.chunk.js": "/wAether/static/js/2.569e90f6.chunk.js",
+    "static/js/2.569e90f6.chunk.js.map": "/wAether/static/js/2.569e90f6.chunk.js.map",
+    "static/js/3.4aa172be.chunk.js": "/wAether/static/js/3.4aa172be.chunk.js",
+    "static/js/3.4aa172be.chunk.js.map": "/wAether/static/js/3.4aa172be.chunk.js.map",
     "index.html": "/wAether/index.html",
-    "static/css/main.f98a332e.chunk.css.map": "/wAether/static/css/main.f98a332e.chunk.css.map",
-    "static/js/2.5cec8ad8.chunk.js.LICENSE.txt": "/wAether/static/js/2.5cec8ad8.chunk.js.LICENSE.txt",
+    "static/css/main.6cf7b889.chunk.css.map": "/wAether/static/css/main.6cf7b889.chunk.css.map",
+    "static/js/2.569e90f6.chunk.js.LICENSE.txt": "/wAether/static/js/2.569e90f6.chunk.js.LICENSE.txt",
+    "static/media/2k_mars.33960f5a.jpeg": "/wAether/static/media/2k_mars.33960f5a.jpeg",
+    "static/media/2k_sun.4b569137.jpeg": "/wAether/static/media/2k_sun.4b569137.jpeg",
     "static/media/earth_blue_planet_globe.e614f141.jpg": "/wAether/static/media/earth_blue_planet_globe.e614f141.jpg",
     "static/media/lunar_bumpmap.1dd7bdd6.jpg": "/wAether/static/media/lunar_bumpmap.1dd7bdd6.jpg",
     "static/media/lunar_surface.ae7aaee2.jpg": "/wAether/static/media/lunar_surface.ae7aaee2.jpg",
@@ -20,9 +22,9 @@
     "static/media/sun_immage.c75c5e4f.jpeg": "/wAether/static/media/sun_immage.c75c5e4f.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5fbe9aca.js",
-    "static/js/2.5cec8ad8.chunk.js",
-    "static/css/main.f98a332e.chunk.css",
-    "static/js/main.f6d8127a.chunk.js"
+    "static/js/runtime-main.bcecfdab.js",
+    "static/js/2.569e90f6.chunk.js",
+    "static/css/main.6cf7b889.chunk.css",
+    "static/js/main.89ef80e7.chunk.js"
   ]
 }
