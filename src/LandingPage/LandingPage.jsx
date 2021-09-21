@@ -10,8 +10,10 @@ import { CardActionArea } from '@mui/material';
 import { Collapse } from '@mui/material';
 
 import TopNavBar from "./TopNavBar";
+import SunGlobe from "../Globes/SunGlobe"
 import EarthGlobe from "../Globes/EarthGlobe";
 import MoonGlobe from "../Globes/MoonGlobe";
+import MarsGlobe from "../Globes/MarsGlobe";
 import earthImage from '../resources/earth_blue_planet_globe.jpg';
 import moonImage from '../resources/moon-test.png';
 import sunImage from '../resources/sun_immage.jpeg';
@@ -42,7 +44,7 @@ export default function LandingPage() {
         <Grid item xs={6} md={gridNumber(0)} style={{display:'flex'}}>
           <PlanetCard planetName="Sun" image={sunImage} openCard={()=>openCard(0)} active={activeCard===0}/>
           <Collapse in={activeCard===0} orientation='horizontal' timeout="auto" unmountOnExit>
-            <EarthGlobe />
+            <SunGlobe />
           </Collapse>
         </Grid>
         <Grid item xs={6} md={gridNumber(1)} style={{display:'flex'}}>
@@ -60,7 +62,7 @@ export default function LandingPage() {
         <Grid item xs={6} md={gridNumber(3)} style={{display:'flex'}}>
           <PlanetCard planetName="Mars" image={marsImage} openCard={()=>openCard(3)} active={activeCard===3}/>
           <Collapse in={activeCard===3} orientation='horizontal' timeout="auto" unmountOnExit>
-            <EarthGlobe />
+            <MarsGlobe />
           </Collapse>
         </Grid>
       </Grid>
