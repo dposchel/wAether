@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Globe from 'react-globe.gl';
 import * as THREE from 'three'
 
@@ -11,7 +11,7 @@ const TILE_MARGIN = 0.00; // degrees
 const API_KEY = 'beb7150490945ad8e8581ddc73e6a064';
 
 // Gen random data
-const GRID_SIZE = [200, 100];
+const GRID_SIZE = [20, 10];
 
 const redMaterial = new THREE.MeshLambertMaterial({ color:'red', opacity: 0.5, transparent: true });
 const noMaterial = new THREE.MeshLambertMaterial({ color:'red', opacity: 0.0, transparent: true });
@@ -62,12 +62,11 @@ export default function EarthGlobe() {
     if (selectedTile) {
       setWeatherDataLoading(true);
       fetchRegionData({lat:selectedTile.lat,lng:selectedTile.lng});
-      console.log(weatherDisplayData);
     }
   }
 
   function fetchRegionData(locationData) {
-    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${locationData.lat}&lon=${locationData.lng}&appid=${API_KEY}`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${locationData.lat}&lon=${locationData.lng}&appid=${API_KEY}&units=imperial `)
       .then(res => res.json())
       .then(
         (result) => {
@@ -96,8 +95,8 @@ export default function EarthGlobe() {
       pointsData={gData}
       pointAltitude="size"
       pointColor="color"
-      height="800"
-      width="1095"
+      height={800}
+      width={1095}
       tileMaterial="material"
       tilesData={tiles}
       tileWidth={tileWidth - TILE_MARGIN}
